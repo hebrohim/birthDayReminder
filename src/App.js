@@ -5,7 +5,6 @@ import data from "./Components/Data";
 function App() {
   const [people, setPeople] = useState(data)
 
-let clr = false
 const clear = () => {
 setPeople([])
 }
