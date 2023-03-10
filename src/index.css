@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right ,var(--primaryColor),var(--lighterPrimaryColor),var(--primaryColor));
+ 
+}
+
+:root{
+  /* Cavern Pink */
+  --primaryColor: #E1B0AC;
+   --lighterPrimaryColor:#F2D4D6;
+
+   /* textColor */
+   --textColor:#213F99;
+}
