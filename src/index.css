@@ -1,15 +1,75 @@
 body {
+
+  width: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right ,var(--primaryColor),var(--lighterPrimaryColor),var(--primaryColor));
+  font-family: 'Pacifico', cursive;
+  background: linear-gradient(
+    to right,
+    var(--primaryColor),
+    var(--lighterPrimaryColor),
+    var(--primaryColor)
+  );
+  display: flex;
+
+  justify-content: center;
+
+  /* align-items: center; */
+}
+
+:root {
+  /* primary colors */
+  --primaryColor: #e1b0ac;
+  --lighterPrimaryColor: #f2d4d6;
+  --white: #fefefe;
+  --darkerPrimaryColor :#4d0801;
+
+  /* textColor */
+  --textColor: #213f99;
+}
+
+.App {
+  width: 70vw;
+  box-sizing: border-box;
+  box-shadow: -2px 0px 15px 2px rgba(0,0,0,0.76);
+  background-color: var(--white);
+  margin-top: 50px;
+  border-radius: 10px 10px 0 0;
+  color: var(--textColor);
+  padding: 0 20px;
+
+}
+
+
+#birthdayCount{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.userContainer{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items:center;
+}
+
+#clearBtn{
+  width: 100%;
+  height: 5vh;
+  margin: 20px 0;
+  background-color: var(--darkerPrimaryColor);
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
  
 }
 
-:root{
-  /* Cavern Pink */
-  --primaryColor: #E1B0AC;
-   --lighterPrimaryColor:#F2D4D6;
+#clearBtn:hover{
 
-   /* textColor */
-   --textColor:#213F99;
+  transition: all 1s;
+  cursor: pointer;
+  font-weight: 600;
+
 }
