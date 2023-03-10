@@ -41,7 +41,20 @@ body {
 
 }
 
-
+#userImg{
+  object-fit:cover;
+        
+        margin-bottom:20px;
+        width:80px;
+        height:80px;
+        border-radius:50%;
+        border:2px solid #4d0801;
+        box-shadow:5px 3px 23px -4px rgba(0,0,0,0.76)
+}
+#userName{
+  margin-bottom:10px;letter-spacing:0.3rem;
+  font-size:1.5rem
+}
 #birthdayCount{
   font-weight: 400;
   font-size: 1.5rem;
@@ -66,10 +79,29 @@ body {
  
 }
 
+
+
+
+
+
 #clearBtn:hover{
 
   transition: all 1s;
   cursor: pointer;
   font-weight: 600;
 
+}
+
+@media screen and (max-width:550px) {
+  .App{
+    width: 80vw;
+  }
+#userImg{
+  width: 70px;
+  height: 70px;
+}
+
+#userName{
+  font-size: 1rem;
+}
 }
