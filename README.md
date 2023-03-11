@@ -20,8 +20,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hebrohim/digitalBusinessCard)
-- Live Site URL: [Add live site URL here](https://ibrahimbusinesscard.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/hebrohim/birthDayReminder)
+- Live Site URL: [Add live site URL here](https://ibrahimbirthdayreminder.netlify.app/)
 
 ### Built with
 
